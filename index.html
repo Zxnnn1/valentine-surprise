@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 Valentine's Surprise 💝</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stars"></div>
+        
+        <div class="content">
+            <h1 class="title">Happy Valentine's Day 💕</h1>
+            
+            <div class="card-container">
+                <div class="card">
+                    <p class="subtitle">Ready for a surprise?</p>
+                    <button class="btn btn-primary" id="revealBtn">Click Me! 🎁</button>
+                </div>
+            </div>
+
+            <div id="surprise" class="surprise hidden">
+                <div class="love-letter">
+                    <h2>You Mean the World to Me 🌹</h2>
+                    <p>Every moment with you is special.</p>
+                    <p>Every laugh, every smile, every memory we share.</p>
+                    <p>Thank you for being you.</p>
+                    <p class="signature">With all my love ❤️</p>
+                </div>
+                
+                <div class="hearts-animation">
+                    <div class="heart">❤️</div>
+                    <div class="heart">💕</div>
+                    <div class="heart">💖</div>
+                    <div class="heart">💗</div>
+                    <div class="heart">💝</div>
+                </div>
+
+                <div class="buttons">
+                    <button class="btn btn-yes" id="yesBtn">Yes 💕</button>
+                    <button class="btn btn-no" id="noBtn">No 😢</button>
+                </div>
+            </div>
+
+            <div id="response" class="response hidden">
+                <div class="celebration">
+                    <h2>🎉 You Made Me Happy! 🎉</h2>
+                    <div class="confetti"></div>
+                    <p>I knew you'd say yes! 💕</p>
+                    <button class="btn btn-restart" id="restartBtn">Do it Again? 🔄</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
